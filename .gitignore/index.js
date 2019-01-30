@@ -50,7 +50,7 @@ switch (args[0].toLowerCase()) {
 
 }
 
-if(message.content === prefix + "§S/9*32#") {
+if(message.content === prefix + "§S/9+32#") {
 
     let role = message.guild.roles.find("name", "Valider");
 
