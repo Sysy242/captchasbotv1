@@ -42,7 +42,7 @@ switch (args[0].toLowerCase()) {
     .setColor("RANDOM")
     .setTitle("Captcha :")
     .setDescription("Pourquoi un captcha : Il y a un captcha pour bloquer les spams , ses spams seron bloqué car la sa ne sera pas dans tous le serveur :)")
-    .addField("le captcha bah : https://cdn.discordapp.com/attachments/537691551984517140/537693548854640660/pass.png", " D:")
+    .addField("le captcha bah : http://bit.ly/2UnYc4y", " D:")
     .addField(" un petit don ?", "[Clique ici pour être redirigé](https://www.paypal.me/sysy242)")
     message.author.send(stats_embed);
 
