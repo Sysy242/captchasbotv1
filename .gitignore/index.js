@@ -12,7 +12,7 @@ client.on('guildMemberAdd', member => {
     .setColor('RANDOM')
     .setDescription(`hey ${member.user.username} il nous a rejoin`)
     member.send("Hey" + member)
-    member.send("https://discord.gg/YPg9vrm")
+    member.send("https://discord.gg/wKSTHDq")
 
 })
         
