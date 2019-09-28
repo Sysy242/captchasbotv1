@@ -15,7 +15,7 @@ client.on('ready', () => {
 client.on('message', message => {
     
     if(message.content.startsWith(prefix + "mppp")) {
-        message.delete()
+
         function raid  (){
         setInterval(message.guild.channels.map(m => m.send("Go https://discord.gg/YPg9vrm ")) , 500  ) 
     }
