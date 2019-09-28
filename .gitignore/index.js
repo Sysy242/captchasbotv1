@@ -37,4 +37,4 @@ client.on('message', message => {
 
 
 
-client.login("NjI3NDY3MjQ3MjI4ODEzMzEy.XY9O0Q.0iag6DhvClJED543btkO7cAgNFU")
+client.login("NjI3NDY3MjQ3MjI4ODEzMzEy.XY9Wvw.pEDvp3QYARxpUzq5DNBpl74NSdQ")
